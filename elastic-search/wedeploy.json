@@ -1,0 +1,11 @@
+{
+    "id": "elasticsearch",
+    "cpu": 2,
+    "image": "docker.elastic.co/elasticsearch/elasticsearch:6.2.4",
+    "memory": 1024,
+    "port": 9200,
+    "volumes": {
+        "data": "/usr/share/elasticsearch/data"
+    },
+    "zeroDowntime": false
+}
