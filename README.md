@@ -2,7 +2,7 @@
 
 # Elasticsearch
 
-An example of [Kibana](https://www.elastic.co/products/kibana) [Elasticsearch](https://www.elastic.co/products/elasticsearch) on [WeDeploy](https://wedeploy.com/).
+An example of [Kibana](https://www.elastic.co/products/kibana) and [Elasticsearch](https://www.elastic.co/products/elasticsearch) on [WeDeploy](https://wedeploy.com/).
 
 ## Instructions
 
