@@ -1,6 +1,6 @@
 [![Deploy](https://cdn.wedeploy.com/images/deploy.svg)](https://console.wedeploy.com/deploy?repo=https://github.com/wedeploy-examples/kibana-example)
 
-# Elasticsearch
+# Kibana and Elasticsearch
 
 An example of [Kibana](https://www.elastic.co/products/kibana) and [Elasticsearch](https://www.elastic.co/products/elasticsearch) on [WeDeploy](https://wedeploy.com/).
 

@@ -1,6 +1,7 @@
 {
     "id": "kibana",
     "cpu": 2,
+    "dependencies": ["elasticsearch"],
     "env": {
         "ELASTICSEARCH_URL": "http://elasticsearch:9200"
     },
