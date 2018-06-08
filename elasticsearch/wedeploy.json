@@ -2,10 +2,13 @@
     "id": "elasticsearch",
     "image": "docker.elastic.co/elasticsearch/elasticsearch:6.2.4",
     "cpu": 2,
-    "memory": 1024,
+    "memory": 2048,
     "port": 9200,
+    "zeroDowntime": false,    
     "volumes": {
         "data": "/usr/share/elasticsearch/data"
     },
-    "zeroDowntime": false
+    "healthCheck": {
+        "url": "localhost:9200"
+    }
 }

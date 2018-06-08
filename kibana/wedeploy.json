@@ -10,5 +10,8 @@
     },
     "volumes": {
         "data": "/usr/share/kibana/data"
+    },
+    "healthCheck": {
+        "url": "localhost:5601"
     }
 }
