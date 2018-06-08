@@ -3,12 +3,15 @@
     "image": "docker.elastic.co/kibana/kibana:6.2.4",
     "port": 5601,
     "cpu": 2,
-    "memory": 1024,
+    "memory": 2048,
     "dependencies": ["elasticsearch"],
     "env": {
         "ELASTICSEARCH_URL": "http://elasticsearch:9200"
     },
     "volumes": {
         "data": "/usr/share/kibana/data"
+    },
+    "healthCheck": {
+        "url": "localhost:5601"
     }
 }
