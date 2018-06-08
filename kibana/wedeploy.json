@@ -3,7 +3,7 @@
     "image": "docker.elastic.co/kibana/kibana:6.2.4",
     "port": 5601,
     "cpu": 2,
-    "memory": 2048,
+    "memory": 1024,
     "dependencies": ["elasticsearch"],
     "env": {
         "ELASTICSEARCH_URL": "http://elasticsearch:9200"
